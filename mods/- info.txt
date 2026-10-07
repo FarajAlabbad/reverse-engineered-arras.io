@@ -1,0 +1,70 @@
+MODS FOLDER — INFO
+==================
+
+Mods are JavaScript files (.js) that are loaded by the client before
+the game initializes. This means they run early enough to patch things
+like window.fetch, window.WebSocket, etc.
+
+
+HOW LOADING WORKS
+-----------------
+The server (sim.js) exposes a GET /api/mods endpoint that recursively
+scans this folder and returns all .js files as a list.
+
+The client (simulation.html) fetches that list on startup, then fetches
+and injects each mod as an inline <script> tag — BEFORE the WebAssembly
+game engine initializes. This guarantees mods are fully active from the
+very start.
+
+
+FOLDER CONVENTIONS
+------------------
+Subfolders are supported and scanned recursively.
+
+  Folders whose name starts with "-" (hyphen) are IGNORED entirely.
+  Nothing inside them will be loaded, no matter how deep.
+
+  Use this to disable a group of mods without deleting them.
+
+
+CURRENT STRUCTURE
+-----------------
+  mods/
+  ├── - disabled/          ← IGNORED (starts with "-")
+  │   └── (put mods here to disable them)
+  ├── always enabled/      ← loaded
+  │   ├── adblock.js
+  │   └── showhiddenlobbies.js
+  ├── fovMap.js            ← loaded
+  └── - info.txt           ← this file (not loaded, not a .js file)
+
+
+LOAD ORDER
+----------
+Mods are loaded in the order the OS returns them (generally alphabetical
+within each directory). Subfolders are descended into before sibling
+files at the same level are processed, depending on traversal order.
+
+If load order matters between two mods, put the one that must run first
+into a subfolder with an earlier alphabetical name.
+
+
+WRITING A MOD
+-------------
+A mod is just a plain .js file. It runs in the browser's global scope,
+so it has full access to window, fetch, WebSocket, document, etc.
+
+Example — patch window.fetch:
+
+    const _origFetch = window.fetch;
+    window.fetch = async (req, opts) => {
+        const res = await _origFetch(req, opts);
+        // ... modify response ...
+        return res;
+    };
+
+Wrap your code in an IIFE to avoid polluting the global scope:
+
+    (function () {
+        // your mod code here
+    })();

@@ -7,7 +7,7 @@ const port = 3000;
 app.use('/wasm', express.static(path.join(__dirname, 'wasm')));
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'simulation.html')); 
+  res.sendFile(path.join(__dirname, 'index.html')); 
 });
 
 app.listen(port, () => {

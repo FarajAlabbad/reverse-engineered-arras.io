@@ -1,5 +1,5 @@
 # Update [2026-10-8]
-- This version of the client is owned and maintained by Faraj
+- This version of the client is maintained by Faraj
 - Play Arras without restrictions!
 
 # Mods [2026-05-22]

@@ -1,7 +1,7 @@
 # Update [2026-10-8]
 - This version of the client is maintained by Faraj
 - Play Arras without restrictions!
-- Please note: This client is currently under development and will not work at the moment."
+- Please note: This client is currently under development and will not work at the moment.
 - يرجى ملاحظة أن هذا التطبيق (العميل) لا يزال قيد التطوير حالياً ولن يعمل في الوقت الراهن.
 
 # Mods [2026-05-22]

@@ -1,6 +1,7 @@
 # Update [2026-10-8]
 - This version of the client is maintained by Faraj
 - Play Arras without restrictions!
+- Please note this cilent is currently in develobment and will not work at the moment.
 
 # Mods [2026-05-22]
 - Added following mods:

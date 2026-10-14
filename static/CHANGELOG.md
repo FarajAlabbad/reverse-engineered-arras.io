@@ -1,78 +1,160 @@
+# (Cilent) Update [2026-10-8]
+
+  - This version of the client is owned and maintained by Faraj
+  - Now live at arras-io.duckdns.org
+
 # Announcement [2026-10-07]
-- Maintenance has completed.
-- Asia servers have been readded and will remain available for the foreseeable future!
+
+  - Maintenance has completed.
+  - Asia servers have been readded and will remain available for the foreseeable
+    future!
 
 # Update [2026-10-03]
-- Readded the Sandbox $ nexus command.
-- Reverted 2TDM bases to be on the left and right edges of the arena, and 4TDM bases to be on the corners.
+
+  - Readded the Sandbox $ nexus command.
+  - Reverted 2TDM bases to be on the left and right edges of the arena, and 4TDM
+    bases to be on the corners.
 
 # Balance [2026-10-03]
-- Reverted Fork and Conqueror to their old behavior with a slight damage nerf.
+
+  - Reverted Fork and Conqueror to their old behavior with a slight damage nerf.
 
 # Announcement [2026-10-03]
-- Arras.io will be undergoing maintenance on {{Intl.DateTimeFormat([],{weekday:'long',month:'numeric',day:'numeric'}).format(new Date('2026-10-07T04:00:00Z'))}} at {{Intl.DateTimeFormat([],{hour:'numeric',timeZoneName:'short'}).format(new Date('2026-10-07T04:00:00Z'))}}.
-- All servers will temporarily shut down before restarting. We expect that the maintenance period will be brief.
+
+  - Arras.io will be undergoing maintenance on
+    {{Intl.DateTimeFormat([],{weekday:'long',month:'numeric',day:'numeric'}).format(new
+    Date('2026-10-07T04:00:00Z'))}} at
+    {{Intl.DateTimeFormat([],{hour:'numeric',timeZoneName:'short'}).format(new
+    Date('2026-10-07T04:00:00Z'))}}.
+  - All servers will temporarily shut down before restarting. We expect that the
+    maintenance period will be brief.
 
 # Patch [2026-10-02]
-- Removed support for IPv6.
+
+  - Removed support for IPv6.
 
 # Announcement [2026-09-27]
-- We're running some polls and looking for feedback about some changes you'd like us to revert in the unofficial community Discord server. Come share your thoughts, or just hang out and talk with other players!
-- We've also brought back chat and player names in all modes and reopened the Nexus so players can discuss the upcoming changes.
-- [Join the Community Discord](https://discord.gg/arrasio)
+
+  - We're running some polls and looking for feedback about some changes you'd
+    like us to revert in the unofficial community Discord server. Come share
+    your thoughts, or just hang out and talk with other players!
+  - We've also brought back chat and player names in all modes and reopened the
+    Nexus so players can discuss the upcoming changes.
+  - Join the Community Discord
 
 # Announcement [2026-09-24]
-- Arras.io has been through a lot over the past eight years, and we know that many of you haven't had the best experience.
-- We'd like to better understand what the players think, and what you want to see from the game moving forward.
-- As such, we're putting out a survey for you to share your experiences, frustrations, ideas, and hopes for the game.
-- Your responses will be read and analyzed to help shape the future of arras.io. We appreciate you taking the time to give us your feedback!
-- [Take the Survey](https://survey.arras.io/s/cmu4hsqtc000501ubbwrfqwk2)
+
+  - Arras.io has been through a lot over the past eight years, and we know that
+    many of you haven't had the best experience.
+  - We'd like to better understand what the players think, and what you want to
+    see from the game moving forward.
+  - As such, we're putting out a survey for you to share your experiences,
+    frustrations, ideas, and hopes for the game.
+  - Your responses will be read and analyzed to help shape the future of
+    arras.io. We appreciate you taking the time to give us your feedback!
+  - Take the Survey
 
 # Patch [2026-09-15]
-- Fixed multiple vulnerabilities that caused server crashes.
+
+  - Fixed multiple vulnerabilities that caused server crashes.
 
 # Patch [2026-09-10]
-- Added Cloudflare Turnstile.
+
+  - Added Cloudflare Turnstile.
 
 # Announcement [2026-09-09]
-- Maintenance has mostly completed.
-- Expect more server restarts than usual over the next few days as we finish up.
+
+  - Maintenance has mostly completed.
+  - Expect more server restarts than usual over the next few days as we finish
+    up.
 
 # Announcement [2026-09-05]
-- Arras.io will be undergoing maintenance beginning on {{Intl.DateTimeFormat([],{weekday:'long',month:'numeric',day:'numeric'}).format(new Date('2026-09-09T04:00:00Z'))}} at {{Intl.DateTimeFormat([],{hour:'numeric',timeZoneName:'short'}).format(new Date('2026-09-09T04:00:00Z'))}}.
-- All servers will shut down and become unavailable during this maintenance period. We expect that this maintenance period may take several hours.
+
+  - Arras.io will be undergoing maintenance beginning on
+    {{Intl.DateTimeFormat([],{weekday:'long',month:'numeric',day:'numeric'}).format(new
+    Date('2026-09-09T04:00:00Z'))}} at
+    {{Intl.DateTimeFormat([],{hour:'numeric',timeZoneName:'short'}).format(new
+    Date('2026-09-09T04:00:00Z'))}}.
+  - All servers will shut down and become unavailable during this maintenance
+    period. We expect that this maintenance period may take several hours.
 
 # Patch [2026-08-22]
-- Fixed an issue where occasionally the game persistently loads to a blank screen for all players.
+
+  - Fixed an issue where occasionally the game persistently loads to a blank
+    screen for all players.
 
 # Patch [2026-08-17]
-- Oceania servers have been restored.
-- Asia servers have been removed and will remain unavailable for the foreseeable future.
+
+  - Oceania servers have been restored.
+  - Asia servers have been removed and will remain unavailable for the
+    foreseeable future.
+
+# Mods [2026-05-22]
+
+  - Added following mods:
+  - showhiddenlobbies.js, adblock.js
+
+# (Cilent) Update [2026-05-22]
+
+  - Added mod loader.
+
+# (Cilent) Update [2026-05-17]
+
+  - Added death screen parser.
+  - Updated mockup parser.
+  - Added admin and self-destruct packet constructors.
+  - Bypassed the latest patch.
 
 # Announcement [2025-12-13]
-- Over the past several weeks, arras.io has received multiple DMCA takedown notices from 3AM Experiences LLC, the owner of diep.io.
-- These notices resulted in the deletion of our official Discord server and most proxy sites, as well as various server outages.
-- We believe that the claims raised in these notices overstate the scope of copyright protection of video game mechanics, and we are working with Discord and our hosting providers to restore affected services.
-- A detailed, transparent summary of the situation is available here:
-- [View Full Announcement](/ext/diep-dmca/announcement)
+
+  - Over the past several weeks, arras.io has received multiple DMCA takedown
+    notices from 3AM Experiences LLC, the owner of diep.io.
+  - These notices resulted in the deletion of our official Discord server and
+    most proxy sites, as well as various server outages.
+  - We believe that the claims raised in these notices overstate the scope of
+    copyright protection of video game mechanics, and we are working with
+    Discord and our hosting providers to restore affected services.
+  - A detailed, transparent summary of the situation is available here:
+  - View Full Announcement
 
 # Patch [2025-12-02]
-- Temporarily Removed the Discord button.
+
+  - Temporarily Removed the Discord button.
 
 # Update [2025-09-08]
-- Balancing changes. See the Balance section for more details.
+
+  - Balancing changes. See the Balance section for more details.
 
 # Balance [2025-09-08]
-- Nerfed Assailant's reload speed
-- Fixed an oversight that allowed Assailant branch to reload without waiting to cycle.
+
+  - Nerfed Assailant's reload speed
+  - Fixed an oversight that allowed Assailant branch to reload without waiting
+    to cycle.
 
 # Gamemode [2025-09-07]
-- The server rotations have been updated again.
-- Gameplay variants (Growth, Arms Race, Normal) will still travel across servers every 3 days.
-- 3 Servers within each region will feature no gameplay variants.
-- 2 Servers within each region will feature Growth.
-- 2 servers within each region will feature Arms Race.
-- 2 servers within each region will feature Growth Arms Race.
+
+  - The server rotations have been updated again.
+  - Gameplay variants (Growth, Arms Race, Normal) will still travel across
+    servers every 3 days.
+  - 3 Servers within each region will feature no gameplay variants.
+  - 2 Servers within each region will feature Growth.
+  - 2 servers within each region will feature Arms Race.
+  - 2 servers within each region will feature Growth Arms Race.
+
+# (Cilent) Update [2025-08-23]
+
+  - Added "P" packet parsing and data handling.
+
+# (Cilent) Update [2025-08-22]
+
+  - Development of a reversed protocol has begun.
+  - Access to fully decoded outgoing and incoming packets.
+  - Packet parsers are in work ("u", "b", "R", COMPLETE, "J" mockup names
+    completed, remaining info isn't necessary).
+  - Functionality to construct custom outgoing packets
+    (window.packet_constructors) is supported.
+  - Functionality to send custom outgoing packets (push to window.packet_queue)
+    is supported.
 
 # Update [2025-08-14]
 - Labyrinth portals will now display their region.
